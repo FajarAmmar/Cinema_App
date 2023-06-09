@@ -1,0 +1,297 @@
+.topbar-main{
+     background-color: white!important;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     width: 100%;
+     position: -webkit-sticky;
+     position: sticky!important;
+     top: 0!important;
+}
+
+.mx-dataview {
+     .mx-dataview-content {
+          height: auto!important;
+     }
+}
+
+.bg-movie-description {
+     width: 100%;
+     height: 100%!important;
+}
+
+.region-content-user{
+    & > .mx-scrollcontainer-wrapper {
+     height: max-content!important;
+     background-color: white!important;
+    }
+}
+
+.bg-img-home {
+     width: 100%;
+     padding: 7em 4em;
+     opacity: 0.8;
+}
+
+.content-user{
+     padding: 2em 4em!important;
+}
+
+.text-head-homepage {
+     color: white;
+}
+
+.lv-homepage{
+     // background-color: transparent;
+     // display: flex;
+     // flex-wrap: nowrap;
+     // padding: 0em 2em;
+     // margin-top: 10px;
+     // overflow-x: auto;
+     // scroll-behavior: smooth;
+           /* Clear search button (overrides load more button stying) */
+           width: 100%;
+           overflow-x: scroll;
+     & > ul {
+          margin: 2em 0;
+          display: flex; 
+          .mx-listview-empty {
+               border-style: none;
+               background-color: transparent;
+               }
+ 
+           }
+           & > li {
+             margin: 0;
+             padding: 0;
+           }
+ }
+
+ .slide-img{
+     height: 25em;
+     width: 15em;
+     margin: 1em 11px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     border-radius: 20px!important;
+     & > img {
+          min-height: 100%;
+          cursor: pointer;
+          border-radius: 20px!important;
+     }
+     & > img:hover {
+          background-color: grey;
+     }
+ }
+
+ .bg-poster-desc{
+     width: 371px!important;
+     height: 566px!important;
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+     border-radius: 5%;
+
+     & > img {
+          min-width: 371px!important;
+          border-radius: 5%;
+     }
+ }
+ .slide-img:hover {
+     transform: scale(1.1);
+ }
+
+ .bg-img-description {
+     opacity: 0.5;
+     // height: 20em;
+     & > img {
+          width: 100%;
+     }
+}
+
+.btn-play {
+     border-radius: 50%;
+     height: 4em;
+     width: 4em;
+}
+.headerhero {
+     background-color: black;
+ }
+
+ .brdr-bottom {
+     border-bottom: 5px solid;
+     padding: 2em 0;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: .89px;
+     line-height: 27px;
+ }
+
+ .container-button {
+     padding: 9em 3em;
+ }
+
+ .lv-horizontal {
+     width: 100%;
+     overflow-x: auto;
+     & > ul {
+          display: flex;
+          padding: 0 2em;
+     }
+     & li {
+          margin: 0 1em;
+     }
+     .mx-listview::-webkit-scrollbar {
+          width: 0px;  //remove scrollbar width 
+          background: transparent;  //optional: it will make scrollbar invisible
+      }
+ }
+
+ .date-available {
+     display: block!important;
+ }
+
+ .cinema-seat {
+     background-color: #5C6887!important;
+     color: white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .cinema-seat {
+     margin: 5em 7em;
+     padding: 0 5em!important;
+ }
+
+ .modal-center {
+     background-color: red!important;
+ }
+
+ .lv-horizontal {
+     width: 100%;
+     & > ul {
+          margin: 1em 0;
+          display: flex; 
+          .mx-listview-empty {
+               border-style: none;
+               background-color: transparent;
+               }
+ 
+           }
+           & > li {
+             margin: 0;
+             padding: 0;
+           }
+ }
+
+.lv-seat {
+     width: 100%;
+     & > ul {
+          margin: 5px 0;
+          display: flex; 
+          .mx-listview-empty {
+               border-style: none;
+               background-color: transparent;
+               }
+               & > li {
+                    margin: 0 5px;
+                    padding: 0;
+                  }
+           }
+           
+}
+
+.btnseat{
+     width: 35px;
+     height: 45px;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 6px;
+
+     color: black;
+     background-color: white;
+
+     border-color: greenyellow;
+     &:hover {
+          background-color: green;
+          color: white;
+     }
+}
+.btnseatselected{
+     display: flex;
+     cursor: pointer;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     border-radius: 6px;
+     padding: 0;
+     color: white;
+     background-color: green;
+     border-color: greenyellow;
+}
+ .btnbooked {
+     display: flex;
+     cursor:not-allowed;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     border-radius: 6px;
+     pointer-events: none;
+     padding: 0;
+     background-color: black;
+ }
+ .btnprebooked {
+     display: flex;
+     cursor:not-allowed;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     
+     border-radius: 6px;
+     padding: 0;
+     background-color: greenyellow;
+ }
+
+ .containerwaiting{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     & > .mx-loading{
+     & > .mx-image-viewer {
+          justify-content: center;
+          display: flex;
+          align-items: center;
+     }
+}
+ }
+
+ .mx-element-form{
+     margin: 10px 0;
+ }
+
+ .logo-ticket {
+     position: absolute;
+     opacity: 0.4;
+ }
+
+ .btn-confirm{
+     padding: 1em 0;
+     border-radius: 6px;
+     border-radius: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     cursor: pointer;
+     border-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .ticketreview{
+     justify-content: center;
+     align-items: center;
+     min-height: 25em;
+ }

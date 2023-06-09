@@ -1,0 +1,4 @@
+export const NanoflowCommons$ShowProgress = async () => (await import("C:/Users/Fajar/Documents/talian/Mendix Project/Cinema Web/Development Branch/javascriptsource/nanoflowcommons/actions/ShowProgress")).ShowProgress;
+export const NanoflowCommons$HideProgress = async () => (await import("C:/Users/Fajar/Documents/talian/Mendix Project/Cinema Web/Development Branch/javascriptsource/nanoflowcommons/actions/HideProgress")).HideProgress;
+export const Cinema$Previous_Sroll_action = async () => (await import("C:/Users/Fajar/Documents/talian/Mendix Project/Cinema Web/Development Branch/javascriptsource/cinema/actions/Previous_Sroll_action")).Previous_Sroll_action;
+export const Cinema$Next_Scroll_Action = async () => (await import("C:/Users/Fajar/Documents/talian/Mendix Project/Cinema Web/Development Branch/javascriptsource/cinema/actions/Next_Scroll_Action")).Next_Scroll_Action;

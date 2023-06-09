@@ -1,0 +1,16 @@
+Buildfile: C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 363 source files to C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\run\bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+package:
+      [jar] Building jar: C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+
+

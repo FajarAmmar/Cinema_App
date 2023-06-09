@@ -1,0 +1,11 @@
+Buildfile: C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 54 files to C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment
+     [copy] Copying 109 files to C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\model\lib\userlib
+     [copy] Copying 8 files to C:\Users\Fajar\Documents\talian\Mendix Project\Cinema Web\Development Branch\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

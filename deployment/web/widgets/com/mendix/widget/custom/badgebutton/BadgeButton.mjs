@@ -1,0 +1,6 @@
+import{createElement as e,useCallback as a}from"react";var t,l={exports:{}};
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/t=l,function(){var e={}.hasOwnProperty;function a(){for(var t=[],l=0;l<arguments.length;l++){var n=arguments[l];if(n){var r=typeof n;if("string"===r||"number"===r)t.push(n);else if(Array.isArray(n)&&n.length){var s=a.apply(null,n);s&&t.push(s)}else if("object"===r)for(var u in n)e.call(n,u)&&n[u]&&t.push(u)}}return t.join(" ")}t.exports?(a.default=a,t.exports=a):window.classNames=a}();var n=l.exports;const r=a=>{var t;return e("button",{className:n("widget-badge-button btn",{"btn-primary":!(null===(t=a.className)||void 0===t?void 0:t.match(/btn-{primary|secondary|success|warning|danger}/))},a.className),onClick:a.onClick,style:a.style},e("span",{className:"widget-badge-button-text"},a.label),e("span",{className:"badge"},a.value))},s=e=>e&&"available"===e.status&&e.value;var u;function i(t){const l=a((()=>{var e;(e=t.onClickEvent)&&e.canExecute&&!e.isExecuting&&e.execute()}),[t.onClickEvent]);return e(r,{className:t.class,label:t.label&&s(t.label)?t.label.value:"",onClick:l,style:t.style,value:t.value&&s(t.value)?t.value.value:""})}!function(e){e.Number="number",e.DateTime="datetime"}(u||(u={}));export{i as BadgeButton};

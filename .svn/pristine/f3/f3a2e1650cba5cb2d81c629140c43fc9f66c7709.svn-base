@@ -1,0 +1,465 @@
+$app_primary : #0C7D9C;
+$app_dark : #1C5464;
+$app_light : #B1D4E0;
+$app_light_secondary : #E7F2F8;
+$app_seconday : #FFA384;
+
+.topbar-main{
+     background-color: white!important;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     width: 100%;
+     position: -webkit-sticky;
+     position: sticky!important;
+     top: 0!important;
+}
+
+.mx-dataview {
+     .mx-dataview-content {
+          height: auto!important;
+     }
+}
+
+.bg-movie-description {
+     width: 100%;
+     height: 100%!important;
+}
+
+.region-content-user{
+    & > .mx-scrollcontainer-wrapper {
+     height: max-content!important;
+     background-color: white!important;
+    }
+}
+
+.bg-img-home {
+     width: 100%;
+     padding: 7em 4em;
+     opacity: 0.8;
+}
+
+.content-user{
+     padding: 3em 4em!important;
+}
+
+.text-head-homepage {
+    color: white;
+}
+
+.lv-homepage{
+     // background-color: transparent;
+     // display: flex;
+     // flex-wrap: nowrap;
+     // padding: 0em 2em;
+     // margin-top: 10px;
+     // overflow-x: auto;
+     // scroll-behavior: smooth;
+           /* Clear search button (overrides load more button stying) */
+           width: 100%;
+           overflow-x: scroll;
+           scroll-behavior: smooth;
+     & > ul {
+          padding: 2em 1em;
+          display: flex; 
+          .mx-listview-empty {
+               border-style: none;
+               background-color: transparent;
+               }
+ 
+           }
+           & > li {
+             margin: 0;
+             padding: 0;
+           }
+ }
+
+ .lv-homepage::-webkit-scrollbar {
+     width: 0px;  //remove scrollbar width 
+     background: transparent;  //optional: it will make scrollbar invisible
+ }
+
+ .slide-img{
+     height: 25em;
+     width: 15em;
+     margin: 1em 11px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     border-radius: 20px!important;
+     & > img {
+          min-height: 100%;
+          cursor: pointer;
+          border-radius: 20px!important;
+     }
+     & > img:hover {
+          background-color: grey;
+     }
+ }
+
+ .bg-poster-desc{
+     width: 371px!important;
+     height: 566px!important;
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+     border-radius: 5%;
+
+     & > img {
+          min-width: 371px!important;
+          border-radius: 5%;
+     }
+ }
+ .slide-img:hover {
+     transform: scale(1.1);
+ }
+
+ .bg-img-description {
+     opacity: 0.5;
+     // height: 20em;
+     & > img {
+          width: 100%;
+     }
+}
+
+.btn-pay {
+     padding: 5px;
+     
+}
+.img-payment{
+     height: 3em;
+}
+.btn-play {
+     border-radius: 50%;
+     height: 4em;
+     width: 4em;
+}
+.headerhero {
+     background-color: black;
+ }
+
+ .brdr-bottom {
+     border-bottom: 5px solid;
+     padding: 2em 0;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: .89px;
+     line-height: 27px;
+ }
+
+ .container-button {
+     padding: 9em 3em;
+ }
+
+ .lv-horizontal {
+     width: 100%;
+     overflow-x: auto;
+     & > ul {
+          display: flex;
+     }
+     & li {
+          margin-right: 5px;
+     }
+ }
+
+ .date-available {
+     display: block!important;
+ }
+
+ .cinema-seat {
+     background-color: #5C6887!important;
+     color: white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .cinema-seat {
+     margin: 5em 7em;
+     padding: 0 5em!important;
+ }
+
+ .modal-center {
+     background-color: red!important;
+ }
+.lv-row{
+     margin: 0;
+     padding: 0 8em;
+}
+.lv-seat {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     & > ul {
+          margin: 5px 0;
+          display: flex; 
+          .mx-listview-empty {
+               border-style: none;
+               background-color: transparent;
+               }
+               & > li {
+                    margin: 0 5px;
+                    padding: 0;
+                  }
+           }
+           
+}
+
+.btnseat{
+     width: 35px;
+     height: 45px;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+     align-items: center;
+     border: 1px solid $app_dark;
+     border-radius: 6px;
+     color: $app_light_secondary;
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+     background-color: $app_light_secondary;
+     border-color: $app_primary;
+     &:hover {
+          background-color: $app_primary;
+          color: $app_light_secondary;
+     }
+}
+.btnseatselected{
+     display: flex;
+     cursor: pointer;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     border-radius: 6px;
+     padding: 0;
+     color: white;
+     background-color: $app_primary;
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+ .btnbooked {
+     display: flex;
+     cursor:not-allowed;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     border-radius: 6px;
+     pointer-events: none;
+     padding: 0;
+     background-color: $app_dark;
+     color: $app_dark;
+ }
+
+ .btnprebooked {
+     display: flex;
+     cursor:not-allowed;
+     pointer-events: none;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 45px;
+     border-radius: 6px;
+     padding: 0;
+     background-color: $app_seconday;
+     color: $app_seconday;
+ }
+
+ .seat-available {
+     width: 25px;
+     height: 35px;
+     padding: 0;
+     margin-right: 8px;
+     background-color: $app_light_secondary;
+     border-radius: 6px;
+ }
+
+ .seat-preeboked {
+     width: 25px;
+     height: 35px;
+     padding: 0;
+     margin-right: 8px;
+     background-color: $app_seconday;
+     border-radius: 6px;
+ }
+
+ .seat-booked {
+     width: 25px;
+     height: 35px;
+     padding: 0;
+     margin-right: 8px;
+     background-color: $app_dark;
+     border-radius: 6px;
+ }
+
+ .instruction {
+     margin: 0 1em 2em 0;
+ }
+.next-step-container {
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 2em!important;
+   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+   background-color: white;
+}
+
+
+
+ .containerwaiting{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     & > .mx-loading{
+     & > .mx-image-viewer {
+          justify-content: center;
+          display: flex;
+          align-items: center;
+     }
+}
+ }
+
+ .mx-element-form{
+     margin: 10px 0;
+ }
+
+ .logo-ticket {
+     position: absolute;
+     opacity: 0.2;
+ }
+
+ .btn-confirm{
+     padding: 1em 0;
+     border-radius: 6px;
+     border-radius: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     cursor: pointer;
+     border-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .ticketreview{
+     justify-content: center;
+     align-items: center;
+     min-height: 25em;
+ }
+
+ .vector-waitpayment {
+     margin: 0;
+     height: 25em;
+ }
+
+ .timer-payment {
+     font-weight: bold;
+     border-radius: 10px;
+     background-color: rgba(51,51,51,255);
+     color: white;
+     font-size: 2em;
+     padding: 6px 50px;
+     margin-bottom: 10px;
+ }
+
+.headeruser {
+     ul {
+          margin: 0 1.5em!important;
+          li {
+               a {
+                    color: black!important;
+               }
+               a:hover {
+                    background-color: blue!important;
+                    color: white!important;
+               }
+          }
+     }
+ }
+
+ .seat-cinema {
+     display: flex;
+     
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .login-page {
+     
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .costum_popup {
+     .modal-header{
+          display: none;
+     }
+ }
+.img-login {
+     height: 100vh;
+     width: 100%;
+}
+ .card-cast {
+     width: 9em;
+     height: 15em;
+     margin: 1em 2px;
+     padding: 0;
+ }
+
+ .cast-img{
+     height: 11em;
+     width: 100%;
+ }
+
+ .card-text{
+     margin-top: 2px;
+ }
+
+ .text-open {
+     color: $app_primary;
+ }
+
+ .text-waiting {
+     color: #F8D210;
+ }
+
+ .text-paid {
+     color: green
+ }
+
+ .text-failed {
+     color: red;
+ }
+
+ .text-done {
+     background-color: green;
+     color: white;
+ }
+
+ @media only screen and (max-width: 600px){
+    .content-user{
+        padding: 1em !important;
+   }
+
+    .bg-img-home {
+        width: 100%;
+        padding: 3em 2em;
+        opacity: 0.8;
+   }
+
+    .text-head-homepage {
+    background-color: #1C5464;
+
+}
+
+.slide-img{
+    height: 15em;
+    width: 8em;
+    margin: 1em 11px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 20px!important;
+    & > img {
+         min-height: 100%;
+         cursor: pointer;
+         border-radius: 20px!important;
+    }
+    & > img:hover {
+         background-color: grey;
+    }
+}
+
+ }

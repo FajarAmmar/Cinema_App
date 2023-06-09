@@ -1,0 +1,49 @@
+@import "custom-variables";
+
+.content {
+     padding: 12px 15px;
+}
+
+.grid-content{
+     margin: 2em 0;
+     & > .mx-grid-searchbar {
+          background-color: white;
+          margin: 0 0;
+          text-align: center;
+     }
+
+     & > .mx-grid-content {
+          & > table {
+               & > thead {
+                    background-color: $color-primary-dark;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+                    color: white;
+               }
+               & > tbody{
+                    & > tr:hover {
+                         background-color: white;
+                         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                         border: 0;
+                    }
+               }
+          }
+     }
+}
+
+// .img-sidebar {
+//      background-color: red;
+//      max-width: 100%;
+//      max-height: 20%;
+//      border-radius: 100px;
+//      background-color: transparent;
+//      cursor: pointer;
+//      & > img{
+//           min-width: 100%;
+//           max-height: 120%;
+//           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
+//      }
+// }
+
+.sidebar-admin{
+     margin: 2em 0 2em 3px;
+}
